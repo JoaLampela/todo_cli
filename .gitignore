@@ -1,0 +1,10 @@
+/target/
+/.cargo/
+*.exe
+*.log
+*.bak
+*.tmp
+*.swp
+.idea
+.vscode
+*.rs.bk

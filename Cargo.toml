@@ -1,0 +1,21 @@
+[package]
+name = "todo_cli"
+version = "0.1.0"
+edition = "2024"
+authors = ["Joa Lampela joalampela@gmail.com"]
+description = "A minimal TODO CLI app I made while learning Rust. Not expecting it to be useful."
+readme = "README.md"
+license-file = "LICENSE"
+repository = "https://github.com/JoaLampela/todo_cli"
+categories = ["command-line-utilities"]
+keywords = ["cli"]
+documentation = "https://docs.rs/todo_cli"
+homepage = "https://github.com/JoaLampela/todo_cli"
+
+[package.metadata.docs.rs]
+all-features = true
+
+[dependencies]
+serde = { version = "=1.0.219", features = ["derive"] }
+serde_json = "=1.0.140"
+dirs = "=6.0.0"
