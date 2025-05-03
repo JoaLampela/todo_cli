@@ -1,6 +1,6 @@
-use todo_cli::menu::{add_task, clear_terminal, confirm_action, delete_task_options, edit_tasks_options, list_task_options, print_menu, read_line};
-use todo_cli::repository::{read_tasks_from_file};
-use todo_cli::task::Task;
+use joa_lampela_todo_cli::menu::{add_task, clear_terminal, confirm_action, delete_task_options, edit_tasks_options, list_task_options, print_menu, read_line};
+use joa_lampela_todo_cli::repository::{read_tasks_from_file};
+use joa_lampela_todo_cli::task::Task;
 
 fn main() -> () {
     clear_terminal();
